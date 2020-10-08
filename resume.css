@@ -1,0 +1,140 @@
+.sec{
+	display: flex;
+	flex-direction: row;
+}
+#resumeb{
+	background-color: white;
+	display: flex;
+}
+#main{
+	display: flex;
+	justify-content: space-around;
+	width: 25%;
+	flex-wrap: wrap;
+	/*border-style: solid;
+	border-color: black;*/	
+}
+/*#mainsection{
+	border-style: solid;
+	border-color: black;
+}*/
+#profile>img{
+	height: 45%;
+	width: 60%;
+	margin: 15%;
+	border-radius: 20%;
+	box-shadow: 3px 3px 3px 3px black;	
+}
+#profile>img:hover{
+	box-shadow: 3px 3px 3px 3px red;	
+}
+#profile>h1,h2,h3{
+	text-align: center;
+}
+#profile>a{
+	margin: 9%;
+}
+.font{
+	font-size: 10px;
+}
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+th{
+	background-color: #DCDCDC;
+}
+
+#about{
+	display: flex;
+	flex-wrap: wrap;
+}
+.details{
+	margin: 6%;
+}
+.detals>ul,li{
+	list-style-type: none;
+	font-size: 20px;
+	padding-top: 4px;
+	font-weight: bold;
+}
+.headings{
+	text-align: center;
+	font-size: 30px;
+}
+/*mobile view*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+#main{
+	display: inline-flex;
+	flex-direction: column;
+	margin:1% 20% 5% 20%;
+	font-size: 30px;
+	border-style: none;
+}
+#mainsection{
+	display: flex;
+	flex-direction: column;
+	border-style: none;
+	/*width: 50%;*/
+}
+.sec{
+	display: flex;
+	flex-direction: column;
+	border-style: none;
+}
+#profile,h1,h2{
+	text-align: center;
+	font-size: 15px;
+}
+#resumer,h1{
+	font-size: 10px;
+}
+#profile,img{
+	height: 100%;
+	width: 250%;
+	border-radius: 20%;
+}
+#profile>img{
+	box-shadow: 3px 3px 3px 3px black;	
+}
+.headings{
+	font-size: 20px;
+}
+}
+/*tab view*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+.sec{
+	display: inline-flex;
+	flex-direction: column;
+	border-style: none;
+}
+#profile{
+	display: flex;
+	flex-direction: row;
+}
+#divison{
+	margin-left: 20%;
+	margin-top: 35%;
+	text-align: center;
+	font-size: 17px;
+}
+
+#profile>img{
+	height:70%;
+	width:90%;
+	margin-left: 40%;
+	margin-top: 20%;
+	border-radius: 20%;
+	box-shadow: 3px 3px 3px 3px black;
+}
+#mainsection{
+	border-top: ridge;
+}
+}

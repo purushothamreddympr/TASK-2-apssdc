@@ -1,0 +1,16 @@
+{
+	"card1":{
+		"image":"look.jpg",
+		"name":"PURUSHOTHAM REDDY MATTILETI",
+		"email":"purushothammattileti@gmail.com",
+		"mbl":"6474632476",
+		"btn":"Static"
+	},
+	"card2":{
+		"image":"portrait.jpg",
+		"name":"PURUSHOTHAM REDDY MATTILETI",
+		"email":"purushothammattileti@gmail.com",
+		"mbl":"85457874756",
+		"btn":"Dynamic"
+	}
+}

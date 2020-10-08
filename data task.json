@@ -1,0 +1,53 @@
+{
+	"details":{
+		"name":"m purushotham",
+		"image":"avatar.png",
+		"email":"purushothammattileti@gmail.com",
+		"number":"9876543210",
+		"address":"madanapalli"
+	},
+	"Careerobjective":{
+		"info":["to become developer"]
+	},
+	"educationalqualification":[
+		{
+			"institute":"aditya eng college",
+			"degree":"b.tech",
+			"passoutyear":"2020",
+			"percentage":"99%"
+		},
+		{
+			"institute":"sri chaitanya college",
+			"degree":"intermediate",
+			"passoutyear":"2014",
+			"percentage":"98%"
+		},
+		{
+			"institute":"narayana school",
+			"degree":"ssc",
+			"passoutyear":"2012",
+			"percentage":"96%"
+
+		}
+
+	],
+	"technicalskills":[
+		{
+			"title":"programming languages",
+			"info":["c,c++,java,python,R"]
+
+		},
+		{
+			"title":"databases",
+			"info":["sql,mysql,sql"]
+		},
+		{
+			"title":"operating systems",
+			"info":["unix,windows,ubuntu"]
+
+		}
+
+	]
+
+	
+}
